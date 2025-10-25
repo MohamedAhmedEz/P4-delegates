@@ -2,7 +2,7 @@ public delegate double OP(double num1, double num2);
 public class CalculatorService
 {
 
-    private OP _op;
+    public OP _op;
     public CalculatorService(OP operation)
     {
         _op = operation;
